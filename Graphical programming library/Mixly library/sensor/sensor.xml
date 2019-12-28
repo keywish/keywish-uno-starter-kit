@@ -1,0 +1,555 @@
+<!-- type="company" block="block/sensor.js" generator="generator/sensor.js"  lib="sensor" media="media/sensor" language="language/sensor"-->
+<script type="text/javascript" src="../../blocks/company/sensor.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/sensor.js"></script>
+<category id="catMakeBlock" name="sensor" colour="100">
+
+
+
+<!-- ��������value ת���Ƕ�value-->
+<block type="kw_servo">
+	<value name="servopin">
+				<shadow type="math_number">
+					<field name="NUM">7</field>
+				</shadow>
+			</value>
+			<value name="servoangle">
+				<shadow type="math_number">
+					<field name="NUM">90</field>
+				</shadow>
+			</value>
+		</block>
+<!--��ʼ��7��������-->
+<block type="kw_7ledinit">
+		    <value name="pin1">
+				<shadow type="math_number">
+					<field name="NUM">7</field>
+				</shadow>
+			</value>
+					<value name="pin2">
+				<shadow type="math_number">
+					<field name="NUM">6</field>
+				</shadow>
+			</value>
+					<value name="pin3">
+				<shadow type="math_number">
+					<field name="NUM">5</field>
+				</shadow>
+			</value>
+					<value name="pin4">
+				<shadow type="math_number">
+					<field name="NUM">10</field>
+				</shadow>
+			</value>
+					<value name="pin5">
+				<shadow type="math_number">
+					<field name="NUM">11</field>
+				</shadow>
+			</value>
+					<value name="pin6">
+				<shadow type="math_number">
+					<field name="NUM">8</field>
+				</shadow>
+			</value>
+				<value name="pin7">
+				<shadow type="math_number">
+					<field name="NUM">9</field>
+				</shadow>
+			</value>
+					<value name="pin8">
+				<shadow type="math_number">
+					<field name="NUM">4</field>
+				</shadow>
+			</value>
+			</block>
+<!--7����������ʾ����value-->
+<block type="kw_7leddisplaynum">
+	<value name="displaynum">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+		</block>
+<!--��ʼ��4*7��������-->
+<block type="kw_47ledinit">
+		    <value name="Pin1">
+				<shadow type="math_number">
+					<field name="NUM">13</field>
+				</shadow>
+			</value>
+					<value name="Pin2">
+				<shadow type="math_number">
+					<field name="NUM">2</field>
+				</shadow>
+			</value>
+					<value name="Pin3">
+				<shadow type="math_number">
+					<field name="NUM">3</field>
+				</shadow>
+			</value>
+					<value name="Pin4">
+				<shadow type="math_number">
+					<field name="NUM">4</field>
+				</shadow>
+			</value>
+					<value name="Pin5">
+				<shadow type="math_number">
+					<field name="NUM">5</field>
+				</shadow>
+			</value>
+					<value name="Pin6">
+				<shadow type="math_number">
+					<field name="NUM">6</field>
+				</shadow>
+			</value>
+				<value name="Pin7">
+				<shadow type="math_number">
+					<field name="NUM">7</field>
+				</shadow>
+			</value>
+					<value name="Pin8">
+				<shadow type="math_number">
+					<field name="NUM">8</field>
+				</shadow>
+			</value>
+					<value name="Pin9">
+				<shadow type="math_number">
+					<field name="NUM">9</field>
+				</shadow>
+			</value>
+					<value name="Pin10">
+				<shadow type="math_number">
+					<field name="NUM">10</field>
+				</shadow>
+			</value>
+				<value name="Pin11">
+				<shadow type="math_number">
+					<field name="NUM">11</field>
+				</shadow>
+			</value>
+					<value name="Pin12">
+				<shadow type="math_number">
+					<field name="NUM">12</field>
+				</shadow>
+			</value>
+			</block>
+<!--4*7����������ʾ-->
+<block type="kw_7ledcountnum">
+	<value name="count">
+				<shadow type="math_number">
+					<field name="NUM">1234</field>
+				</shadow>
+			</value>
+		</block>
+		<!--4*7��������Ϩ��-->
+		<block type="kw_7ledcountnumoff"></block>
+<!--����������-->
+<block type="kw_ultrasonicread">
+		    <value name="trigpin">
+				<shadow type="math_number">
+					<field name="NUM">2</field>
+				</shadow>
+			</value>
+					<value name="echopin">
+				<shadow type="math_number">
+					<field name="NUM">3</field>
+				</shadow>
+			</value>
+</block>
+<!--��ʼ��������-->
+<block type="kw_dianzhen">
+		    <value name="din">
+				<shadow type="math_number">
+					<field name="NUM">7</field>
+				</shadow>
+			</value>
+					<value name="cs">
+				<shadow type="math_number">
+					<field name="NUM">6</field>
+				</shadow>
+			</value>
+					<value name="clk">
+				<shadow type="math_number">
+					<field name="NUM">5</field>
+				</shadow>
+			</value>
+					<value name="count">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+</block>
+<!--��������ʾ -->
+<block type="kw_dianzhenprint">
+</block>
+<!--�������������ݿɶ�-->
+<block type="kw_getbluetooth">
+</block>
+<!--���ڶ�ȡ��������-->
+<block type="kw_getbluetoothdata">
+</block>
+
+<!--��ʼ������ң�� ����value-->
+<block type="kw_initir">
+<value name="initir">
+				<shadow type="math_number">
+					<field name="NUM">12</field>
+				</shadow>
+			</value>
+</block>
+<!--��ͨ����ң�ذ���������������boolean��-->
+		<block type="kw_irKeyPress"></block>
+<!--emakefun����ң�ذ���������������boolean��-->
+		<block type="kw_irKeyPress2"></block>
+<!--����DS3231ʱ��ʱ�� ����������ʱ����-->
+<block type="kw_ds3231setdate">
+		    <value name="year">
+				<shadow type="math_number">
+					<field name="NUM">19</field>
+				</shadow>
+			</value>
+					<value name="month">
+				<shadow type="math_number">
+					<field name="NUM">4</field>
+				</shadow>
+			</value>
+					<value name="day">
+				<shadow type="math_number">
+					<field name="NUM">30</field>
+				</shadow>
+			</value>
+					<value name="week">
+				<shadow type="math_number">
+					<field name="NUM">7</field>
+				</shadow>
+			</value>
+					<value name="hour">
+				<shadow type="math_number">
+					<field name="NUM">11</field>
+				</shadow>
+			</value>
+					<value name="minute">
+				<shadow type="math_number">
+					<field name="NUM">12</field>
+				</shadow>
+			</value>
+				<value name="sencond">
+				<shadow type="math_number">
+					<field name="NUM">45</field>
+				</shadow>
+			</value>
+			</block>
+<!--da3231ʱ�ӻ�ȡʱ��-->
+<block type="kw_ds3231gettime">
+</block>
+<!--da3231ʱ�Ӷ�ȡ������-->
+<block type="kw_ds3231readyear">
+</block>
+<!--da3231ʱ�Ӷ�ȡʱ�����¶�-->
+<block type="kw_ds3231readhour">
+</block>
+<!--���þ�����������-->
+<block type="kw_keypad">
+		    <value name="row_1">
+				<shadow type="math_number">
+					<field name="NUM">4</field>
+				</shadow>
+			</value>
+					<value name="row_2">
+				<shadow type="math_number">
+					<field name="NUM">5</field>
+				</shadow>
+			</value>
+					<value name="row_3">
+				<shadow type="math_number">
+					<field name="NUM">6</field>
+				</shadow>
+			</value>
+					<value name="row_4">
+				<shadow type="math_number">
+					<field name="NUM">7</field>
+				</shadow>
+			</value>
+					<value name="COL_1">
+				<shadow type="math_number">
+					<field name="NUM">8</field>
+				</shadow>
+			</value>
+					<value name="COL_2">
+				<shadow type="math_number">
+					<field name="NUM">9</field>
+				</shadow>
+			</value>
+				<value name="COL_3">
+				<shadow type="math_number">
+					<field name="NUM">10</field>
+				</shadow>
+			</value>
+			<value name="COL_4">
+				<shadow type="math_number">
+					<field name="NUM">11</field>
+				</shadow>
+			</value>
+			</block>
+<!--��ȡ��������ֵ-->
+<block type="kw_getkeypad">
+</block>
+<!--�������̰���������-->
+<block type="kw_keypadpressed">
+</block>
+<!--�������̰���ֵ-->
+<block type="kw_keypadvalue">
+</block>
+<!--������������-->
+<block type="kw_getbluetoothvalue">
+</block>
+<!--���յ�����������-->
+<block type="kw_dogetbluetoothvalue">
+</block>
+<!--����ģʽ ����������boolean-->
+<block type="kw_bluetoothmode">
+</block>
+<!--������ȡRGBֵ-->
+<block type="kw_bluetoothgetrgbvalue">
+</block>
+<!--��������-->
+<block type="kw_bluetoothsetrgb">
+</block>
+<!--��������-->
+<block type="kw_bluetoothsetbuzzer">
+</block>
+<!--����������value-->
+<block type="kw_buzzerpin">
+<value name="buzzerpin">
+				<shadow type="math_number">
+					<field name="NUM">11</field>
+				</shadow>
+			</value>
+</block>
+<!--IIC����������-->
+<block type="kw_iicinit">
+<value name="clk">
+				<shadow type="math_number">
+					<field name="NUM">A5</field>
+				</shadow>
+			</value>
+			<value name="dio">
+				<shadow type="math_number">
+					<field name="NUM">A4</field>
+				</shadow>
+			</value>
+</block>
+<block type="kw_iicdisplaynum">
+<value name="num1">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+			<value name="num2">
+				<shadow type="math_number">
+					<field name="NUM">2</field>
+				</shadow>
+			</value>
+			<value name="num3">
+				<shadow type="math_number">
+					<field name="NUM">3</field>
+				</shadow>
+			</value>
+			<value name="num4">
+				<shadow type="math_number">
+					<field name="NUM">4</field>
+				</shadow>
+			</value>
+</block>
+<block type="kw_iictube">
+<value name="hours">
+				<shadow type="math_number">
+					<field name="NUM">12</field>
+				</shadow>
+			</value>
+			<value name="minutes">
+				<shadow type="math_number">
+					<field name="NUM">00</field>
+				</shadow>
+			</value>
+</block>
+<block type="kw_stepper">
+<value name="ste">
+				<shadow type="math_number">
+					<field name="NUM">64</field>
+				</shadow>
+			</value>
+<value name="in1">
+				<shadow type="math_number">
+					<field name="NUM">8</field>
+				</shadow>
+			</value>
+			<value name="in2">
+				<shadow type="math_number">
+					<field name="NUM">9</field>
+				</shadow>
+			</value>
+			<value name="in3">
+				<shadow type="math_number">
+					<field name="NUM">10</field>
+				</shadow>
+			</value>
+			<value name="in4">
+				<shadow type="math_number">
+					<field name="NUM">11</field>
+				</shadow>
+			</value>
+</block>
+<block type="kw_stepperspeed">
+<value name="speed1">
+				<shadow type="math_number">
+					<field name="NUM">200</field>
+				</shadow>
+			</value>
+</block>
+<block type="kw_stepperspeed2">
+			<value name="step1">
+				<shadow type="math_number">
+					<field name="NUM">1024</field>
+				</shadow>
+			</value>
+
+</block>
+<block type="_4linelcd">
+<value name="RS">
+				<shadow type="math_number">
+					<field name="NUM">10</field>
+				</shadow>
+</value>
+<value name="RW">
+				<shadow type="math_number">
+					<field name="NUM">11</field>
+				</shadow>
+</value>
+<value name="E">
+				<shadow type="math_number">
+					<field name="NUM">12</field>
+				</shadow>
+</value>
+<value name="DB4">
+				<shadow type="math_number">
+					<field name="NUM">6</field>
+				</shadow>
+</value>
+<value name="DB5">
+				<shadow type="math_number">
+					<field name="NUM">7</field>
+				</shadow>
+</value>
+<value name="DB6">
+				<shadow type="math_number">
+					<field name="NUM">8</field>
+				</shadow>
+</value>
+<value name="DB7">
+				<shadow type="math_number">
+					<field name="NUM">9</field>
+				</shadow>
+</value>
+</block>
+<block type="_8linelcd">
+<value name="_RS">
+				<shadow type="math_number">
+					<field name="NUM">10</field>
+				</shadow>
+</value>
+<value name="_RW">
+				<shadow type="math_number">
+					<field name="NUM">11</field>
+				</shadow>
+</value>
+<value name="_E">
+				<shadow type="math_number">
+					<field name="NUM">12</field>
+				</shadow>
+</value>
+<value name="_DB0">
+				<shadow type="math_number">
+					<field name="NUM">2</field>
+				</shadow>
+</value>
+<value name="_DB1">
+				<shadow type="math_number">
+					<field name="NUM">3</field>
+				</shadow>
+</value>
+<value name="_DB2">
+				<shadow type="math_number">
+					<field name="NUM">4</field>
+				</shadow>
+</value>
+<value name="_DB3">
+				<shadow type="math_number">
+					<field name="NUM">5</field>
+				</shadow>
+</value>
+<value name="_DB4">
+				<shadow type="math_number">
+					<field name="NUM">6</field>
+				</shadow>
+</value>
+<value name="_DB5">
+				<shadow type="math_number">
+					<field name="NUM">7</field>
+				</shadow>
+</value>
+<value name="_DB6">
+				<shadow type="math_number">
+					<field name="NUM">8</field>
+				</shadow>
+</value>
+<value name="_DB7">
+				<shadow type="math_number">
+					<field name="NUM">9</field>
+				</shadow>
+</value>
+
+
+</block>
+<!--��ʼ��RGB������ģ��-->
+<block type="kw_initrgbultrasonic">
+<value name="ultrasonicpin">
+				<shadow type="math_number">
+					<field name="NUM">3</field>
+				</shadow>
+</value>
+<value name="rgbpin">
+				<shadow type="math_number">
+					<field name="NUM">2</field>
+				</shadow>
+</value>
+</block>
+<!--����RGB������ģ����ɫ
+<block type="kw_setcolor">
+</block>-->
+<!--����RGB������ģ����ɫ��ʽ-->
+<block type="kw_setcolorandstyle">
+</block>
+<!--����RGB������ģ��������ʾ
+<block type="kw_setrgbbreathe">
+</block>-->
+<!--RGB������ģ����ȡ����������-->
+<block type="kw_readultrasonicdistance">
+</block>
+<block type="x8ledinit">
+</block>
+<block type="x8leddisplay">
+</block>
+<block type="x8ledloopscan">
+</block>
+<block type="_74hinit">
+</block>
+<block type="_74hinitisplay">
+	<value name="_74hinitisplays">
+			<shadow type="math_number">
+						<field name="NUM">60</field>
+			</shadow>
+	</value>
+</block>
+<block type="_74hoff">
+</block>
+</category>
