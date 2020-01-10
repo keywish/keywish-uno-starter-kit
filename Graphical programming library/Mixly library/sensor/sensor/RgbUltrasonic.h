@@ -9,14 +9,14 @@
 #define UL_LIMIT_MID 10
 #define UL_LIMIT_MAX 400
 
-#define RGB_RED     0xFF0000
-#define RGB_GREEN   0x00FF00
+#define RGB_RED     0x00FF00
+#define RGB_GREEN   0xFF0000
 #define RGB_BLUE    0x0000FF
 #define RGB_YELLOW  0xFFFF00
-#define RGB_PURPLE  0xFF00FF
-#define RGB_ORANGE  0xFFA500
-#define RGB_INDIGO  0x4b0082
-#define RGB_VIOLET  0x8a2be2
+#define RGB_PURPLE  0x00FFFF
+#define RGB_ORANGE  0xA5FF00
+#define RGB_INDIGO  0x004b82
+#define RGB_VIOLET  0x2b8ae2
 #define RGB_WHITE   0xFFFFFF
 #define RGB_BLACK   0
 
