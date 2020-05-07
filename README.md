@@ -1,7 +1,6 @@
-# Please Contact Us
-
-Technical support email: abbott@keywish-robot.com</br>
+Technical support email: support@keywish-robot.com</br>
 Sales email: ken@keywish-robot.com</br>
+The latest information download address:https://github.com/keywish/keywish-uno-starter-kit    </br>
 
 # Required Best Buy Links
 
