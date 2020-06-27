@@ -1,3 +1,5 @@
+[英文版](https://github.com/keywish/keywish-uno-starter-kit/edit/russian_language/README.md)
+
 # Пожалуйста свяжитесь с нами
 Электронная почта технической поддержки: support@keywish-robot.com </br>
 Адрес электронной почты для продаж: ken@keywish-robot.com </br>
