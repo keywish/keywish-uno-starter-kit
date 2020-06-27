@@ -1,4 +1,4 @@
-[英文版](https://github.com/keywish/keywish-uno-starter-kit/edit/russian_language/README.md)
+[英文版](https://github.com/keywish/keywish-uno-starter-kit/edit/russian_language)
 
 # Пожалуйста свяжитесь с нами
 Электронная почта технической поддержки: support@keywish-robot.com </br>
